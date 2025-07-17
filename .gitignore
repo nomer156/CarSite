@@ -1,14 +1,6 @@
-# зависимости и сборка
-node_modules/
-dist/
-.vscode/
-
-# системные
 .DS_Store
-Thumbs.db
+/node_modules/
 
-# Husky
-.husky/
-
-# логинфо
-.env
+# React Router
+/.react-router/
+/build/

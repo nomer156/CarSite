@@ -1,17 +1,23 @@
 {
-  "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "husky": "^8.0.0",
-    "lint-staged": "^16.1.2"
-  },
+  "name": "carsite",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "prepare": "husky install"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "vite": "^5.0.0"
   }
 }
