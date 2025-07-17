@@ -1,0 +1,14 @@
+# зависимости и сборка
+node_modules/
+dist/
+.vscode/
+
+# системные
+.DS_Store
+Thumbs.db
+
+# Husky
+.husky/
+
+# логинфо
+.env
